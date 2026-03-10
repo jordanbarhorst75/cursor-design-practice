@@ -29,7 +29,7 @@ export const AtButton = ({
   return (
     <button
       type={type}
-      className={`transition-colors px-6 py-2 rounded-md ${variantClasses[variant]} ${
+      className={`transition-colors px-8 py-2 rounded-lg font-medium ${variantClasses[variant]} ${
         isDisabled ? 'bg-gray-300 text-slate-600 cursor-not-allowed pointer-events-none' : 'cursor-pointer'
       }`}
       onClick={!isDisabled ? onClick : undefined}
